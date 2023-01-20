@@ -11,11 +11,11 @@ while (true) {
     // let userNumber = window.prompt();
     // console.log(userNumber);
 
-    // Валидация. Цикл покуглил
+    // Валидация. 
     let userNumber
 
     do {
-        userNumber = window.prompt("Загадайте число. Ну только число ;)");
+        userNumber = window.prompt("Загадайте число ;)");
     }
     while (isNaN(userNumber) || userNumber === "" ) 
     
@@ -26,7 +26,7 @@ while (true) {
     console.log(userNumber);
     // Сравниваем
     if (userNumber == meanNumber) {
-        alert("Как вы угадали, в консоль подглядывали?")
+        alert("Вы угадали :) ")
     } else {
         alert("Вы не угадали")
     }
